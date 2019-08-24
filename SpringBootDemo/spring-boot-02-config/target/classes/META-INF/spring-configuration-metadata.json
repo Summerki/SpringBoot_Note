@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.suki.springboot.bean.Person",
+      "sourceType": "com.suki.springboot.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "description": "@Value:spring的底层注解 以前我们配bean标签的时候： <bean class=\"Person\">      <properties name=\"lastName\" value=\"字面量\/${key}从环境变量、配置文件中获取值\/#{SpEL}\"><\/properties> <bean\/>",
+      "sourceType": "com.suki.springboot.bean.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.suki.springboot.bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.suki.springboot.bean.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.suki.springboot.bean.Dog",
+      "sourceType": "com.suki.springboot.bean.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.suki.springboot.bean.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.suki.springboot.bean.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.suki.springboot.bean.Person"
+    }
+  ],
+  "hints": []
+}

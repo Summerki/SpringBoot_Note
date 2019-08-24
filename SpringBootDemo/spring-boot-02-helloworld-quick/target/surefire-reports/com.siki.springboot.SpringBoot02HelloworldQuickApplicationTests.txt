@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.siki.springboot.SpringBoot02HelloworldQuickApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.815 s - in com.siki.springboot.SpringBoot02HelloworldQuickApplicationTests
